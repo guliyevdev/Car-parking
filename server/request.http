@@ -1,0 +1,21 @@
+
+POST  http://127.0.0.1:3000/truck HTTP/1.1
+content-type: application/json
+
+{"number":"90-XK-896", "booking": {"entry_time": ["12121"],"exit_time":["12121"]}, "status": "true"}
+
+###
+# enter truck 
+
+PUT  http://127.0.0.1:3000/truck/enter_truck/635551880b7323bbee0fd10d HTTP/1.1
+content-type: application/json
+
+{"date": "20122012"}
+
+###
+# exit truck
+
+PUT  http://127.0.0.1:3000/truck/exit_truck/635551880b7323bbee0fd10d HTTP/1.1
+content-type: application/json
+
+{"date": "20122010"}
