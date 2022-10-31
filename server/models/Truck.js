@@ -7,7 +7,10 @@ const BookingSchema = new Schema ({
   })
   
 const TruckSchema = new Schema ({
-    number: String,
+    number: {
+      type:String,
+      unique: true
+    },
     booking: BookingSchema,
     status: Boolean
 })

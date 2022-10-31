@@ -56,18 +56,18 @@
         </div>
     </nav>
 </template>
-  
+
 <script>
 export default {
-    name: 'Navbar',
-    props: {
+  // eslint-disable-next-line vue/multi-word-component-names
+  name: 'Navbar',
+  props: {
 
-    }
+  }
 }
 </script>
-  
+/* eslint-disable */
   <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
 </style>
-  
